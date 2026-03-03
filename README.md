@@ -6,9 +6,10 @@ Este documento sirve de guía básica para crear una integración funcional desd
 
 - [Prerequisitos](#prerequisitos)
 - [Creación de aplicacion en Auth0](#creación-de-aplicacion-en-auth0)
-- [Creación de formulario](#creación-de-formulario)
-- [Creación de acción](#creación-de-acción)
+- [Creación de formulario en Auth0](#creación-de-formulario)
+- [Creación de acción en Auth0](#creación-de-acción)
 - [Creación de flujo post-login en Auth0](#creación-de-flujo-post-login-en-auth0)
+- [Creación proyecto Blazor](#creación-de-proyecto-blazor-app)
 
 ## Prerequisitos
 
@@ -183,3 +184,43 @@ Al finalizar este paso, ya nuestro flujo esta listo para ejecutar el formulario 
 [Volver al inicio](#tabla-de-contenido)
 
 ## Creación de proyecto Blazor App
+
+Para crear nuestro proyecto ejecutable en **.NET Blazor** debemos seguir la guía paso a paso presentada por **Auth0**. Para esto se debe dar click en *Applications* -> *Applications* allí elija la aplicación que creó al principio [ver mas...](#creación-de-aplicacion-en-auth0)
+
+![create_app_1](./resources/create_app_1.png)
+
+Al seguir esta guía paso a paso podrá ejecutar al final una aplición blazor como la que se muestra a continuación
+
+![create_app_2](./resources/create_app_2.png)
+
+Al dar click en el link de login encontrará que se dispara el flujo de Auth0
+
+![create_app_9](./resources/create_app_9.png)
+
+Una vez se halla registrado, podrá ingresar y aparecerá el mensaje de bienvenida
+
+![create_app_3](./resources/create_app_3.png)
+
+Luego de dar click en *Continue*, aparece el segundo paso y es la selección de ¿Qué desea hacer?
+
+![create_app_4](./resources/create_app_4.png)
+
+Una vez seleccione la opción, hay dos posibles caminos:
+
+- *Agregar hobbies*: Se despliega el siguiente formulario
+
+  ![create_app_5](./resources/create_app_5.png)
+
+- *Mostrar frase del día*: Se muestra en pantalla la frase
+  
+  ![create_app_6](./resources/create_app_6.png)
+
+Ambas opciones al finalizar llevan a la siguiente pantalla donde se ve los datos de inicio de sesión
+
+![create_app_7](./resources/create_app_7.png)
+
+Al dar click en profile, se abre una pantalla con toda la información del usuario logueado
+
+![create_app_8](./resources/create_app_8.png)
+
+[Volver al inicio](#tabla-de-contenido)
